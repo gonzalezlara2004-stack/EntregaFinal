@@ -23,11 +23,8 @@ h1, h2, .navbar-brand {
 .navbar {
     background-color: var(--fondo);
     border-bottom: 1px solid var(--secundario);
-}
-
-.navbar-brand {
-    font-weight: 700;
-    color: var(--texto);
+    padding-top: 50px;
+    padding-bottom: 25px;
 }
 
 .nav-link {
@@ -57,10 +54,10 @@ header .lead {
 }
 
 .navbar-brand {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 1.3rem;
+    font-family: 'Bodoni Moda', serif;
+    font-size: 1rem;
     font-weight: 400;
-    letter-spacing: 1px;
+    letter-spacing: 0.5px;
     color: var(--texto);
 }
 
