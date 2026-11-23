@@ -16,27 +16,117 @@
 </head>
 
 <body>
+<nav class="navbar navbar-expand-lg navbar-dark">
+    <div class="container">
 
-    <header>
-        <h1>Lara Gonzalez</h1>
-        <p>Portfolio Arquitectura</p>
-    </header>
+        <a class="navbar-brand" href="#">
+            LARA GONZALEZ
+        </a>
 
-    <main>
+        <button class="navbar-toggler" type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#mi-menu">
+            <span class="navbar-toggler-icon"></span>
+        </button>
 
-        <section id="proyectos">
-            <h2>Proyectos</h2>
-        </section>
+        <div class="collapse navbar-collapse" id="mi-menu">
+            <ul class="navbar-nav ms-auto">
 
-        <section id="sobre-mi">
-            <h2>Sobre Mí</h2>
-        </section>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Inicio</a>
+                </li>
 
-    </main>
+                <li class="nav-item">
+                    <a class="nav-link" href="#proyectos">Proyectos</a>
+                </li>
 
-    <footer>
+                <li class="nav-item">
+                    <a class="nav-link" href="#sobre-mi">Sobre mí</a>
+                </li>
+
+            </ul>
+        </div>
+
+    </div>
+</nav>
+
+    
+<header class="container d-flex align-items-center">
+    <div>
+        <p class="subtitulo">ARQUITECTURA · PORTFOLIO 2026</p>
+
+        <h1>PORTFOLIO DE<br>ARQUITECTURA</h1>
+
+        <p class="lead">
+            Soy Lara Gonzalez, estudiante de arquitectura.
+            Este portfolio reúne una selección de proyectos
+            realizados durante mi trayectoria.
+        </p>
+
+        <a href="#proyectos" class="btn btn-primary">
+            EXPLORAR PROYECTOS
+        </a>
+    </div>
+
+</header>
+
+<main>
+
+    <section id="proyectos" class="container py-5">
+
+        <h2>PROYECTOS</h2>
+
+        <p class="descripcion-seccion">
+            Una selección de trabajos que respresentan mi proyeccion a futuro.
+        </p>
+
+        <div class="row g-4" id="contenedor-proyectos">
+        </div>
+
+    
+<section id="sobre-mi" class="container py-5">
+
+    <div class="row align-items-center">
+
+        <div class="col-md-5">
+            <img src="img/sobre-mi.jpeg"
+                 class="img-fluid border"
+                 alt="Foto de Lara Gonzalez">
+        </div>
+
+        <div class="col-md-7">
+            <h2>SOBRE MÍ</h2>
+
+            <p>
+                Soy Lara Gonzalez, estudiante de Arquitectura
+                en la Universidad Torcuato Di Tella.
+            </p>
+
+            <p>
+                Me interesa explorar distintas formas de
+                pensar y proyectar los espacios, prestando
+                especial atención a su relación con el
+                entorno y las personas que los habitan.
+            </p>
+        </div>
+
+    </div>
+
+</section>
+
+</main>
+
+<footer class="container-fluid py-4 border-top">
+
+    <div class="container d-flex justify-content-between">
+
         <p>Lara Gonzalez · 2026</p>
-    </footer>
+
+        <a href="#">VOLVER ARRIBA ↑</a>
+
+    </div>
+
+</footer>
 
     <script src="js/codigo.js"></script>
 

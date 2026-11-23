@@ -1,0 +1,21 @@
+
+[
+    {
+        "titulo": "Costa Salguero",
+        "anio": "2026",
+        "descripcion": "Proyecto de arquitectura desarrollado en Costa Salguero, Buenos Aires.",
+        "imagen": "img/costa-salguero.jpg"
+    },
+    {
+        "titulo": "Villa Crespo",
+        "anio": "2025",
+        "descripcion": "Proyecto de arquitectura desarrollado en el barrio de Villa Crespo, Buenos Aires.",
+        "imagen": "img/villa-crespo.jpg"
+    },
+    {
+        "titulo": "Balvanera",
+        "anio": "2025",
+        "descripcion": "Proyecto de arquitectura desarrollado en el barrio de Balvanera, Buenos Aires.",
+        "imagen": "img/balvanera.jpg"
+    }
+]
