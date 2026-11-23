@@ -147,7 +147,7 @@ header .lead {
 }
 
 #sobre-mi img {
-    width: 50%;
+    width: 70%;
     border-color: var(--secundario) !important;
 }
 
@@ -216,4 +216,18 @@ header .lead {
 
 #sobre-mi button:hover {
     color: var(--acento);
+}
+
+.boton-sobre-mi {
+    background-color: transparent;
+    color: var(--acento);
+    border: 1px solid var(--acento);
+    padding: 12px 25px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.boton-sobre-mi:hover {
+    background-color: var(--acento);
+    color: #ffffff;
+    border-color: var(--acento);
 }
