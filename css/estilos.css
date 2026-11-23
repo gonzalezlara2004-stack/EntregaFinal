@@ -1,8 +1,9 @@
 
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500&family=Montserrat:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:wght@100;100;400&family=DM+Sans:wght@400;500&family=Montserrat:wght@300;400;700&display=swap');
+
 
 :root {
-    --fondo: #0A1128;
+    --fondo: #091026;
     --tarjetas: #001F54;
     --secundario: #034078;
     --acento: #1282A2;
@@ -107,8 +108,10 @@ header .lead {
 }
 
 .card-title {
-    font-size: 1.3rem;
-    font-weight: 700;
+    font-family: 'Bodoni Moda', serif;
+    font-size: 1.75rem;
+    font-weight: 300;
+    margin-bottom: 1rem;
 }
 
 .anio {
@@ -135,7 +138,7 @@ header .lead {
 }
 
 #sobre-mi img {
-    width: 100%;
+    width: 50%;
     border-color: var(--secundario) !important;
 }
 
@@ -162,4 +165,21 @@ footer a {
 footer a:hover {
     color: var(--texto);
 }
+/* TIPOGRAFIA BODONI MODA */
 
+.descripcion-seccion,
+.card-text,
+#sobre-mi p,
+header .lead {
+    font-family: 'Bodoni Moda', serif;
+    font-weight: 400;
+    font-size: 1.15rem;
+    line-height: 1.9;
+}
+
+.anio,
+.subtitulo {
+    font-family: 'Bodoni Moda', serif;
+    font-weight: 400;
+    font-size: 1rem;
+}

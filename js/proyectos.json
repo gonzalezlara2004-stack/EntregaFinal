@@ -1,21 +1,21 @@
 
 [
     {
-        "titulo": "Costa Salguero",
-        "anio": "2026",
-        "descripcion": "Proyecto de arquitectura desarrollado en Costa Salguero, Buenos Aires.",
+        "titulo": "Costa Salguero, Buenos Aires",
+        "anio": "2025",
+        "descripcion": "El proyecto propone revitalizar el área de Costa Salguero a través de un complejo deportivo y social que conecta la ciudad con el río. Mediante una arquitectura permeable, espacios públicos escalonados y una estructura ligera y transparente, la propuesta busca integrar el paisaje costero con las actividades recreativas y la vida urbana.",
         "imagen": "img/costa-salguero.jpg"
     },
     {
-        "titulo": "Villa Crespo",
-        "anio": "2025",
-        "descripcion": "Proyecto de arquitectura desarrollado en el barrio de Villa Crespo, Buenos Aires.",
+        "titulo": "Villa Crespo, Buenos Aires",
+        "anio": "2026",
+        "descripcion": "El proyecto propone un centro cultural y un edificio de estacionamiento que, mediante la liberación del suelo, generan nuevos espacios públicos dentro de un tejido urbano consolidado. Un sistema de pasarelas conecta ambos edificios con el viaducto ferroviario, articulando los recorridos existentes y estableciendo nuevas relaciones entre la arquitectura y la ciudad.",
         "imagen": "img/villa-crespo.jpg"
     },
     {
-        "titulo": "Balvanera",
-        "anio": "2025",
-        "descripcion": "Proyecto de arquitectura desarrollado en el barrio de Balvanera, Buenos Aires.",
-        "imagen": "img/balvanera.jpg"
+        "titulo": "Los Condes, Santiago de Chile",
+        "anio": "2026",
+        "descripcion": "El proyecto reinterpreta la condición de domesticidad del Conjunto Los Alcantara y la traslada al contexto urbano de La Boca. La propuesta se organiza en cuatro tiras de estructura de madera que se retraen para generar terrazas y espacios exteriores. El conjunto se eleva 50 cm sobre un basamento, respondiendo a las condiciones de su entorno.",
+        "imagen": "img/los-condes.png"
     }
 ]
