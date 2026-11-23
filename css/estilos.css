@@ -207,3 +207,13 @@ header .lead {
 #sobre-mi a:hover {
     color: var(--acento);
 }
+
+#sobre-mi button {
+    color: var(--texto);
+    font-size: 1.8rem;
+    transition: color 0.3s;
+}
+
+#sobre-mi button:hover {
+    color: var(--acento);
+}

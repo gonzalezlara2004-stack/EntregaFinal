@@ -126,6 +126,14 @@ Me interesa pensar la arquitectura desde diferentes escalas, prestando atención
     <i class="bi bi-envelope"></i>
 </a>
 
+<button type="button"
+        class="btn p-0"
+        data-bs-toggle="modal"
+        data-bs-target="#modalContacto"
+        aria-label="Abrir formulario de contacto">
+    <i class="bi bi-chat-square-text"></i>
+</button>
+
     </div>
 </div>          
 
@@ -137,6 +145,79 @@ Me interesa pensar la arquitectura desde diferentes escalas, prestando atención
 </section>
 
 </main>
+
+<!-- MODAL DE CONTACTO -->
+<div class="modal fade" id="modalContacto" tabindex="-1"
+     aria-labelledby="tituloContacto" aria-hidden="true">
+
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+
+            <div class="modal-header">
+                <h2 class="modal-title" id="tituloContacto">
+                    CONTACTO
+                </h2>
+
+                <button type="button"
+                        class="btn-close"
+                        data-bs-dismiss="modal"
+                        aria-label="Cerrar">
+                </button>
+            </div>
+
+            <div class="modal-body">
+
+            <form id="formularioContacto"
+      action="https://api.web3forms.com/submit"
+      method="POST">
+
+      <input type="hidden"
+       name="access_key"
+       value="649e3e5c-817f-4db5-a692-12f00434c006">
+
+                    <div class="mb-3">
+                        <label for="nombre" class="form-label">
+                            Nombre
+                        </label>
+                        <input type="text"
+                               class="form-control"
+                               id="nombre"
+                               name="nombre"
+                               required>
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="email" class="form-label">
+                            Correo electrónico
+                        </label>
+                        <input type="email"
+                               class="form-control"
+                               id="email"
+                               name="email"
+                               required>
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="mensaje" class="form-label">
+                            Mensaje
+                        </label>
+                        <textarea class="form-control"
+                                  id="mensaje"
+                                  name="mensaje"
+                                  rows="4"
+                                  required></textarea>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary">
+                        ENVIAR
+                    </button>
+
+                </form>
+
+            </div>
+        </div>
+    </div>
+</div>
 
 <footer class="container-fluid py-4 border-top">
 
