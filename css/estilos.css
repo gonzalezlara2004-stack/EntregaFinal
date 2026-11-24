@@ -53,12 +53,13 @@ header .lead {
     color: var(--texto);
 }
 
+
 .navbar-brand {
     font-family: 'Bodoni Moda', serif;
-    font-size: 1rem;
+    font-size: 0.9rem;
     font-weight: 400;
-    letter-spacing: 0.5px;
     color: var(--texto);
+    white-space: normal;
 }
 
 .subtitulo {
